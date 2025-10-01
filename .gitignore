@@ -1,0 +1,19 @@
+# Arquivos compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.iml
+out/
+bin/
+
+# Sistema (Windows/Mac)
+.DS_Store
+Thumbs.db
