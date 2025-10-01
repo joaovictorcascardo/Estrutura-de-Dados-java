@@ -51,4 +51,19 @@ public class ListaEncadeada {
         }
         return contador;
     }
+
+    // Inverter lista
+    public void inverter() {
+        No anterior = null;
+        No atual = head;
+        No proximo;
+        while (atual != null) {
+            proximo = atual.proximo;
+            atual.proximo = anterior;
+            anterior = atual;
+            atual = proximo;
+
+        }
+        head = anterior;
+    }
 }
